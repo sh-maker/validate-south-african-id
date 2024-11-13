@@ -84,17 +84,6 @@ WSGI_APPLICATION = 'id_checker_project.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'sa_id_info',
-#         'USER': 'root',
-#         'PASSWORD': 'root@123',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
