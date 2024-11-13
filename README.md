@@ -3,9 +3,10 @@ PROJECT NAME - VALIDATE SOUTH AFRICA ID
 PROJECT DESCRIPTION - This project enables users to submit South African ID numbers, view details associated with those IDs, and display related holidays. It includes a Django backend for API management and a React frontend for the user interface.
 
 --------------------------------------------------------------------------------------------------------------------------------
-ROJECT OVERVIEW: 
-The SA ID Checker project provides an interface for entering, viewing, and validating South African ID numbers. Users can:
+PROJECT OVERVIEW: 
+The SA ID Checker project provides an interface for entering, viewing, and validating South African ID numbers. 
 
+Users can:
 1-Submit an ID number to see if it's valid.
 2-View details associated with the ID (birth date, gender, citizenship).
 3-Retrieve holiday details if any are associated with the ID.
@@ -26,17 +27,17 @@ SETUP AND INSTALLATION
     # cd validate-south-african-id
 
 -Backend (Django)
-    # change the directory using command "cd backend\id_checker_project"
-    # Install all the requirement required "pip install -r requirements.txt"
+    # change the directory using the command "cd backend\id_checker_project"
+    # Install all the requirements required "pip install -r requirements.txt"
     # Apply Migrations:
         -> python manage.py makemigrations
         -> python manage.py migrate
-    # Run the server using command "python manage.py runserver"
+    # Run the server using the command "python manage.py runserver"
 
 -Frontend (React)
-    # change the directory using command "cd frontend\sa-id_checker"
-    # Install npm using command "npm install"
-    # Run the server using command "npm start"
+    # change the directory using the command "cd frontend\sa-id_checker"
+    # Install npm using the command "npm install"
+    # Run the server using the command "npm start"
 
 -------------------------------------------------------------------------------------------------------------------------------
 USAGE:
@@ -84,26 +85,26 @@ API DOCUMENTATION:
     -METHOD: GET
     -RESPONSE: 
         {
-        "id_info": 
-        {
-            "id": 26,
-            "id_number": "9001015009087",
-            "birth_date": "1990-01-01",
-            "gender": "Male",
-            "citizenship": "True",
-            "search_count": 1
-        },
-        "holidays": [
-            {
-                "id": 11,
-                "name": "New Year's Day",
-                "description": "New Year’s Day is celebrated with a blend of both diversity and tradition in countries such as South Africa on January 1 each year.",
-                "date": "1990-01-01",
-                "type": "National holiday",
-                "id_info": 26
-            }
-        ]
-    }
+            "id_info": {
+                "id": 26,
+                "id_number": "9001015009087",
+                "birth_date": "1990-01-01",
+                "gender": "Male",
+                "citizenship": "True",
+                "search_count": 1
+            },
+            "holidays": [
+                {
+                    "id": 11,
+                    "name": "New Year's Day",
+                    "description": "New Year’s Day is celebrated with a blend of both diversity and tradition in countries such as South Africa on January 1 each year.",
+                    "date": "1990-01-01",
+                    "type": "National holiday",
+                    "id_info": 26
+                }
+            ]
+        }
+                
 
 
 #LIST API 
