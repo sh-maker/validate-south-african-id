@@ -59,7 +59,7 @@ def validate_sa_id(id_number):
 
 # calendar API to fetch public holidays
 def get_public_holidays(year):
-    # API_KEY = 'rNk1ri6Zw3XPf151cZpOdb4bwEszJPlQ'
+
     API_KEY = 'YOUR_API_KEY'
     url = f"https://calendarific.com/api/v2/holidays?&api_key={API_KEY}&country=ZA&year={year}"
     response = requests.get(url)
