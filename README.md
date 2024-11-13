@@ -41,6 +41,7 @@ SETUP AND INSTALLATION
 
 -------------------------------------------------------------------------------------------------------------------------------
 USAGE:
+
 1-> Start both backend and frontend servers.
 2-> Add an ID on the main page by entering the ID and clicking submit. This will display ID details and any holidays.
 3-> View ID List on the /list route, where clicking on any ID redirects to detailed information.
@@ -49,6 +50,7 @@ USAGE:
 API DOCUMENTATION:
 
 #POST API:
+
     -API URL: http://localhost:8000/api/id-info/
     -METHOD: POST
     -BODY: 
@@ -81,8 +83,10 @@ API DOCUMENTATION:
 
 
 #GET API
+
     -API URL: http://localhost:8000/api/id-info/9001015009087/
     -METHOD: GET
+    
     -RESPONSE: 
         {
             "id_info": {
@@ -108,8 +112,10 @@ API DOCUMENTATION:
 
 
 #LIST API 
+
     -API URL: http://localhost:8000/api/list-info/
     -METHOD: GET
+    
     -RESPONSE: 
         [
             {
