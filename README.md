@@ -7,26 +7,29 @@ PROJECT OVERVIEW:
 The SA ID Checker project provides an interface for entering, viewing, and validating South African ID numbers. 
 
 Users can:
-1-Submit an ID number to see if it's valid.
-2-View details associated with the ID (birth date, gender, citizenship).
-3-Retrieve holiday details if any are associated with the ID.
+
+    #Submit an ID number to see if it's valid.
+    #View details associated with the ID (birth date, gender, citizenship).
+    #Retrieve holiday details if any are associated with the ID.
 
 -------------------------------------------------------------------------------------------------------------------------------
-TECHNOLOGIES USED:
+-TECHNOLOGIES USED:
 
-1-Backend: Django, Django REST Framework
-2-Frontend: React, fetch (for API requests)
-3-Database: MYSQL (default, can be switched as needed)
-4-Other: CORS (Cross-Origin Resource Sharing) setup for local development
+    #Backend: Django, Django REST Framework
+    #Frontend: React, fetch (for API requests)
+    #Database: MYSQL (default, can be switched as needed)
+    #Other: CORS (Cross-Origin Resource Sharing) setup for local development
 
 -------------------------------------------------------------------------------------------------------------------------------
 SETUP AND INSTALLATION
 
 -Clone the repository:
+
     # git clone https://github.com/sh-maker/validate-south-african-id.git
     # cd validate-south-african-id
 
 -Backend (Django)
+
     # change the directory using the command "cd backend\id_checker_project"
     # Install all the requirements required "pip install -r requirements.txt"
     # Apply Migrations:
@@ -35,6 +38,7 @@ SETUP AND INSTALLATION
     # Run the server using the command "python manage.py runserver"
 
 -Frontend (React)
+
     # change the directory using the command "cd frontend\sa-id_checker"
     # Install npm using the command "npm install"
     # Run the server using the command "npm start"
