@@ -1,0 +1,47 @@
+.details-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .details-info {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .details-info .id-info {
+    margin-bottom: 20px;
+  }
+  
+  .details-info .holidays-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .details-info .holidays-info li {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .details-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .details-info h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
